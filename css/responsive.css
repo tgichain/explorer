@@ -1,0 +1,549 @@
+/* Laptop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+.call-back-content {
+	padding-left: 30px;
+	padding-right: 60px;
+}
+.wrapper-box {
+	padding: 0 40px;
+}
+.coll-back-form {
+	padding: 120px 60px;
+}
+.slider-content.slider-two h2 {
+	font-size: 75px;
+}
+
+}
+
+
+/* LG :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.slider-height {
+	min-height: 650px;
+}
+.slider-content h2 {
+	font-size: 56px;
+}
+.case-content h3 {
+	font-size: 18px;
+}
+.consultation-form {
+	padding: 70px 40px;
+}
+.faq-thumb img {
+	margin-left: 0;
+	width: 100%;
+}
+.call-back-content {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+.main-menu .home-two li:last-child {
+	margin: 0;
+}
+.main-menu .home-two li {
+	margin-right: 30px;
+}
+.slider-content.slider-two h2 {
+	font-size: 60px;
+}
+
+.slider-content.slider-two p {
+	font-size: 14px;
+}
+.section-title p {
+	padding: 0;
+}
+.single-features-box {
+	padding: 40px 30px;
+}
+.portfolio-content h4 {
+	font-size: 18px;
+	line-height: 1;
+}
+.portfolio-content span {
+	font-size: 14px;
+}
+.coll-back-form {
+	padding: 60px 40px;
+}
+.blog-content h4 {
+	padding-right: 0px;
+}
+.about-cta .cta-content {
+	right: -20px;
+	top: -20px;
+}
+.sidebar-social a {
+	margin-bottom: 7px;
+}
+.portfolio-cta h2 {
+	font-size: 32px;
+	padding-right: 0;
+}
+.sidebar-download ul li {
+	padding: 15px 13px;
+}
+.sidebar-download {
+	padding: 10px;
+}
+.wrapper-box {
+	padding: 0px 15px;
+}
+.single-team .hover-content span {
+	margin-bottom: 10px;
+}
+.section-title {
+	padding: 0 100px;
+}
+.section-title.title-left {
+	padding: 0;
+	padding-right: 180px;
+}
+.faq-area {
+	padding-bottom: 100px;
+}
+.section-title.section-title-sm {
+	padding: 0;
+}
+
+
+
+
+}
+
+
+/* MD :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.single-cta {
+	margin-left: 30px;
+}
+.main-menu ul li {
+	margin-right: 19px;
+}
+.main-menu ul li a {
+	font-size: 12px;
+}
+.menu-area {
+	margin-bottom: -72px;
+}
+.slider-content h2 {
+	font-size: 48px;
+}
+.slider-height {
+	min-height: 680px;
+}
+.features-box h4 {
+	font-size: 19px;
+}
+.single-testimonial.pt-190 {
+	padding-top: 111px;
+}
+.faq-area {
+	padding-bottom: 100px;
+}
+.footer-menu ul li {
+	margin-left: 12px;
+}
+.call-back-content{
+		padding-left: 0px;
+}
+.main-menu .home-two li:last-child {
+	margin: 0;
+}
+.slider-content.slider-two h2 {
+	font-size: 50px;
+}
+.slider-content.slider-two p {
+	font-size: 14px;
+}
+.section-title p {
+	padding: 0;
+}
+.main-menu-area.home-two-area {
+	padding-top: 20px;
+}
+.single-features-box {
+	padding: 50px 30px;
+}
+.call-back-md {
+	margin-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 90px;
+}
+.about-cta .cta-content {
+	right: -20px;
+	top: -20px;
+}
+.history-content p {
+	padding-right: 0px;
+}
+.sidebar-insta li {
+	margin: 4px 1px;
+}
+.portfolio-cta h2 {
+	margin-bottom: 30px;
+}
+.cta-text h2 {
+	margin-bottom: 30px;
+}
+.md-d{
+	display: block !important;
+}
+.wrapper-box {
+	padding: 0;
+}
+.padd-r-0{padding-right:15px}
+.our-mission {
+	margin-bottom: 25px;
+}
+.single-testimonial {
+	padding-top: 110px;
+}
+.p-resp {
+	padding-bottom: 74px;
+}
+.consultation-form {
+	margin-top: 0;
+}
+.page-title h2 {
+	font-size: 50px;
+}
+
+
+
+
+
+}
+
+
+/* XS  :320px. */
+@media (max-width: 767px) {
+.welcome-message.text-center.text-md-left {
+	padding-top: 15px;
+}
+.header-social-icon.f-right {
+	float: none;
+	text-align: center;
+	padding-left: 0;
+	padding-top: 15px;
+}
+.social-border {
+	border-left: 0;
+}
+.menu-area {
+	margin-bottom: 0;
+}
+.logo-area.pt-25.pb-25 {
+	padding-bottom: 7px;
+}
+.slider-content h2 {
+	font-size: 34px;
+}
+.slider-height {
+	min-height: 550px;
+}
+.video-wrapper h2 {
+	font-size: 30px;
+	margin: 0;
+}
+.video-btn .btn {
+	display: none;
+}
+.consultation-form {
+	padding: 40px 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.faq-thumb img {
+	margin-left: 0;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.section-title h2 {
+	font-size: 35px;
+}
+.faq-wrapper .card-header h5 a::after {
+	display: none;
+}
+.footer-menu ul li {
+	margin: 0 10px;
+}
+.copyright p {
+	margin: 0;
+	margin-bottom: 13px;
+}
+.call-back-content{
+		padding-left: 0px;
+}
+.main-menu-area.home-two-area {
+	padding-top: 20px;
+}
+.section-title-sm p {
+	padding: 0;
+	font-size: 16px;
+}
+.counter-title h3 {
+	font-size: 28px;
+}
+.counter {
+	font-size: 50px;
+}
+.cta-content h3 {
+	font-size: 40px;
+}
+.call-back-md {
+	margin-bottom: 66px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 60px;
+}
+.coll-back-form {
+	padding: 120px 30px;
+}
+.single-testimonial-wrap p {
+	font-size: 18px;
+}
+.blog-thumb img {
+	width: 100%;
+}
+.coll-back-form h2 {
+	line-height: 46px;
+}
+.coll-back-form {
+	padding: 40px 10px;
+}
+.cta-content p {
+	display: none;
+}
+.slider-content.slider-two h2 {
+	font-size: 38px;
+	margin-bottom: 16px;
+}
+.slider-content p {
+	font-size: 15px;
+}
+.about-cta .cta-content h2 {
+	margin-bottom: 80px;
+}
+.about-cta .cta-content h2::before {
+	bottom: -40px;
+}
+.history-content p {
+	padding-right: 0px;
+}
+.page-title-area {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.page-title h2 {
+	font-size: 32px;
+}
+.breadcrumb-item a {
+	font-size: 18px;
+}
+.breadcrumb li span {
+	top: -4px;
+}
+.breadcrumb-item.active {
+	font-size: 18px;
+}
+.about-cta .cta-content {
+	right: 0px;
+	width: 270px;
+	top: -80px;
+	padding: 24px;
+}
+.blog-share-icon {
+	padding-left: 30px;
+}
+.blog-post-tag {
+	margin-bottom: 20px;
+}
+.next-link {
+	padding-left: 30px;
+}
+.prev-link {
+	margin-bottom: 30px;
+}
+.author-post {
+	padding: 25px 20px;
+}
+.blog-content.stand-b h3 {
+	padding-right: 0px;
+}
+.author-post {
+	display: block;
+}
+.author-img {
+	margin-right: 0;
+	margin-bottom: 30px;
+}
+.comment-box {
+	display: block;
+	padding-left: 20px;
+	padding-right: 9px;
+}
+.comments-avatar img {
+	margin-bottom: 20px;
+}
+.comment-reply {
+	margin-left: 0px;
+}
+.post-comment-form {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.sidebar-social a {
+	margin-bottom: 7px;
+}
+.cases-details-wrap h2 {
+	font-size: 26px;
+	padding-right: 0px;
+}
+.contact-info, .contact-form {
+	padding: 60px 13px;
+}
+.portfolio-cta h2 {
+	margin-bottom: 30px;
+	padding-right: 0;
+}
+.portfolio-cta p {
+	display: none;
+}
+.p-btn a {
+	margin: 0;
+}
+.portfolio-cta h2 {
+	font-size: 32px;
+}
+.p-btn {
+	text-align: center !important;
+}
+.sidebar-download ul li {
+	padding: 15px 13px;
+}
+.sidebar-download {
+	padding: 10px;
+}
+.cta-text h2 {
+	margin-bottom: 30px;
+}
+.md-d{
+	display: block !important;
+}
+.cta-text h2 {
+	font-size: 34px;
+}
+.second-faq-thumb img {
+	margin-bottom: 0;
+}
+.second-faq-title h2 {
+	font-size: 32px;
+}
+.wrapper-box {
+	padding: 0;
+}
+/* .faq-area {
+	padding-bottom: 110px;
+} */
+.blog-content h4 {
+	padding-right: 0;
+}
+.portfolio-cta {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.single-testimonial {
+	padding-top: 110px;
+}
+.padd-r-0{padding-right:15px}
+.our-mission {
+	margin-bottom: 25px;
+}
+.contact-title h3::before {
+	left: -12px;
+}
+.p-resp {
+	padding-bottom: 80px;
+}
+.faq-area {
+	padding-bottom: 100px;
+}
+
+
+
+
+
+}
+
+/* SM :550px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+
+.slider-content.slider-two h2 {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+.cta-content p {
+	display: inline-block;
+}
+.counter-title h3 {
+	font-size: 30px;
+}
+.page-title h2 {
+	font-size: 54px;
+}
+.about-cta .cta-content {
+	right: -35px;
+	width: 270px;
+	top: -80px;
+	padding: 24px;
+}
+.author-post {
+	display: table;
+}
+.author-img {
+	margin-right: 40px;
+}
+.comment-box {
+	display: table;
+}
+.comments-avatar img {
+	margin-bottom: 0px;
+}
+.comment-box {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.comment-reply {
+	margin-left: 55px;
+}
+.post-comment-form {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.contact-info, .contact-form {
+	padding: 60px 30px;
+}
+.portfolio-second button {
+	margin: 0 15px;
+}
+.portfolio-menu button {
+	margin: 0 16px;
+}
+.portfolio-cta p {
+	display: inline-block;
+}
+.portfolio-cta h2 {
+	font-size: 36px;
+}
+.contact-title h3::before {
+	left: -30px;
+}
+
+
+
+}
