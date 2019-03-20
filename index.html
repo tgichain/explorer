@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicon icon -->
+    <link rel="icon" href="/img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="/css/linearicons.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/nice-select.css">
+    <link rel="stylesheet" href="/css/meanmenu.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+	<script src="./js/username.js"></script>
+    <title>TGIC全球指数链</title>
+</head>
+
+<body>
+
+   <div class="wrapper-box pl-70 pr-70">
+        <!-- header start -->
+        <header>
+<!--            <div class="header-top-area grey-bg">
+                <div class="container">
+                    <div class="row"> 
+                        <div class="col-xl-6 col-lg-6 col-md-8 d-flex align-items-center justify-content-center justify-content-md-start">
+                            <div class="welcome-message text-center text-md-left">
+                                <span>More then 25 years of experience in business! Privacy & Security</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-4">
+                            <div class="header-social-icon social-border f-right pt-20 pb-20 pl-15">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ -->
+			<style type="text/css">
+				.logo img{
+					height: 50px;
+				}
+				@media only screen and (max-width:990px){
+				.logo img{
+					height: 30px;
+					display: block;
+					
+				}
+			</style>
+
+
+                                    	
+                  
+<div class="main-menu-area home-two-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2">
+                            <div class="logo">
+                                <a href="https://www.tgichain.com/" target="_blank"><img src="/img/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-9 text-right">
+                            <div class="main-menu">
+                                <nav id="mobile-menu2">
+                                    <ul class="home-two">
+                                        <li><a href="https://www.tgichain.com/" target="_blank">官方首页</a></li>	
+										<li><a href="/index.html">区块浏览器</a></li>	
+										<li><a href="/top-wallets.html">热门钱包</a></li>	
+										<li><a href="/delegate-monitor.html">代表监控</a></li>   
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 d-none d-lg-block">
+                            <div class="menu-icon f-right">
+                                <a href="#" class="menu-tigger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu-two"></div>
+                        </div>
+                    </div>
+                    <div class="offcanvas-menu">
+                        <span class="menu-close"><i class="fas fa-times"></i></span>
+                        <form action="#">
+                            <input type="text" placeholder="Search..">
+                            <button><i class="fa fa-search"></i></button>
+                        </form>
+                        <ul>
+                            <li><a href="http://www.tgichain.com/" target="_blank">官方首页</a></li>	
+							<li><a href="/index.html">区块浏览器</a></li>	
+							<li><a href="/top-wallets.html">热门钱包</a></li>	
+							<li><a href="/delegate-monitor.html">代表监控</a></li>	
+                        </ul>
+                        <div class="side-social">
+							<a href="https://www.facebook.com/profile.php?id=100029364581947"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://twitter.com/NbRnEsEv2Ct708g?s=05"><i class="fab fa-twitter"></i></a>
+							<a href="https://github.com/xianfeic"><i class="fab fa-github"></i></a>
+							<a href="http://weibo.com/TGIC"><i class="fab fa-weibo"></i></a>
+							<a href="https://t.me/tgichain01"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                    <div class="offcanvas-overly"></div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+
+		<!--  -->
+		
+		
+            <section class="counter-area grey-bg pt-110 pb-90">
+                <div class="container" >
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="single-counter text-center mb-30">
+								<div id="app" class="counter1" v-cloak >{{supply/100000000}}</div>
+                                <p>供应(T)</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="single-counter text-center mb-30">
+                                <div class="counter1" id="height">{{height}}</div>
+                                <p>高度</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+		<!--  -->
+		
+		
+            <section class="counter-area bg-1f3682 pt-110 pb-90">
+                <div class="container" id="shijia">
+
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class=" text-center mb-30">
+								<div class="fz-18" v-cloak>{{shijia.btc}}</div>
+                                <p class="col-fff fz-18">市价(BTC)</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class=" text-center mb-30">
+								<div class="fz-18" v-cloak>{{shijia.eth}}</div>
+                                <p class="col-fff fz-18">市价(ETH)</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class=" text-center mb-30">
+								<div class="fz-18" v-cloak>{{shijia.usdt}}</div>
+                                <p class="col-fff fz-18">市价(USTD)</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class=" text-center mb-30">
+								<div class="fz-18" v-cloak>{{shijia.cny}}</div>
+                                <p class="col-fff fz-18">市价(CNY)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			
+			
+
+		<!--  -->
+
+
+        <section class="slider-area wbj-sx30">
+			<div class="container">
+				<div class="zxjy">
+					<a href="javascript:jiaoyi(0);" class="jiaoyi" style="color: #007bff"><span>最新交易</span></a>
+					<a href="javascript:qukuai(0);" class="qukuai"><span>最新区块</span></a>
+				</div>
+				<div id="transactions" style="display: block;">
+					<div class="sj-ys">
+					
+							<table style="table-layout:fixed;white-space: nowrap; width: 100%;">
+
+										<th>ID</th>
+										<th>时间戳</th>
+										<th>发送者</th>
+										<th>接收者</th>
+										<th>数量 (TGI)</th>
+										<th>费用 (TGI)</th>
+
+									<tr v-for="data in datas">
+										<td v-cloak><a :href="'/transaction.html?id='+data.id" >{{data.id}}</a></td>
+										<td v-cloak>{{getLocalTime(data.timestamp+1490101200)}}</td>
+										<td v-cloak><a :href="'/wallets.html?id='+data.senderId">{{usernameupdate(data.senderId)}}</a></td>
+										<td v-cloak><a :href="'/wallets.html?id='+data.recipientId">{{usernameupdate(data.recipientId)}}</a></td>
+										<td v-cloak>{{data.amount/100000000}}T</td>
+										<td v-cloak>{{data.fee/100000000}}T</td>
+									</tr>
+
+							</table>
+							
+							<div class="wbj-sx20 zydq">
+								<a href="javascript:qpage();" class="btn cta-btn bkyj"><span>上一页</span></a>
+								<a href="javascript:hpage();" class="btn cta-btn bkyj"><span>下一页</span></a>
+							</div>
+						
+					</div>
+					
+					<div class="sj-xs">
+					
+
+							<div v-for="data in datas" class="column wbj-x10 bg-f7f7fd" >
+								<li class="zydq">
+									<span>ID：</span>
+									<span v-cloak><a :href="'/transaction.html?id='+data.id" >{{data.id}}</a></span>
+								</li>
+								<li class="zydq">
+									<span>时间戳：</span>
+									<span v-cloak>{{getLocalTime(data.timestamp+1490101200)}}</span>
+								</li>
+								<li class="zydq">
+									<span>发送者：</span>
+									<span v-cloak><a :href="'/wallets.html?id='+data.senderId">{{data.senderId}}</a></span>
+								</li>
+								<li class="zydq">
+									<span>接收者：</span>
+									<span v-cloak><a :href="'/wallets.html?id='+data.recipientId">{{data.recipientId}}</a></span>
+								</li>
+								<li class="zydq">
+									<span>数量 (TGI)：</span>
+									<span v-cloak>{{data.amount/100000000}}T</span>
+								</li>
+								<li class="zydq">
+									<span>费用 (TGI)：</span>
+									<span v-cloak>{{data.fee/100000000}}T</span>
+								</li>
+							</div>
+
+							
+							<div class="wbj-sx20 zydq">
+								<a href="javascript:qpage();" class="btn cta-btn bkyj"><span>上一页</span></a>
+								<a href="javascript:hpage();" class="btn cta-btn bkyj"><span>下一页</span></a>
+							</div>
+						
+					</div>
+						
+				</div>
+				<div id="blocks" style="display: none;">
+					<div class="sj-ys">
+					
+							<table style="table-layout:fixed;white-space: nowrap; width: 100%;">
+
+								<th>ID</th>
+								<th>高度</th>
+								<th width="16%">时间戳</th>
+								<th>交易</th>
+								<th>生成的</th>
+								<th>奖励</th>
+								<th>费用</th>
+								
+								<tr v-for="data in datas">
+									<td><a :href="'/block.html?id='+data.id">{{data.id}}</a></td>
+									<td v-cloak>{{data.height}}</td>
+									<td v-cloak>{{getLocalTime(data.timestamp+1490101200)}}</td>
+									<td v-cloak>{{data.numberOfTransactions}}</td>
+									<td v-cloak><a :href="'/wallet.html?id='+data.generatorId">{{usernameupdate(data.generatorId)}}</a></td>
+									
+									<td v-cloak>{{data.reward/100000000}}T</td>
+									<td v-cloak>{{data.totalFee/100000000}}T</td>
+								</tr>
+
+							</table>
+							<div class="wbj-sx20 zydq ">
+								<a href="javascript:qpage(this);" class="btn cta-btn bkyj"><span>上一页</span></a>
+								<a href="javascript:hpage(this);" class="btn cta-btn bkyj"><span>下一页</span></a>
+							</div>
+							
+					</div>
+					
+					
+					<div class="sj-xs">
+					
+
+							<div v-for="data in datas" class="column wbj-x10 bg-f7f7fd" >
+								<li class="zydq">
+									<span>ID：</span>
+									<span v-cloak><a :href="'/block.html?id='+data.id">{{data.id}}</a></span>
+								</li>
+								<li class="zydq">
+									<span>高度：</span>
+									<span v-cloak>{{data.height}}</span>
+								</li>
+								<li class="zydq">
+									<span>时间戳：</span>
+									<span v-cloak>{{getLocalTime(data.timestamp+1490101200)}}</span>
+								</li>
+								<li class="zydq">
+									<span>交易：</span>
+									<span v-cloak>{{data.numberOfTransactions}}</span>
+								</li>
+								<li class="zydq">
+									<span>生成的：</span>
+									<span v-cloak><a :href="'/wallet.html?id='+data.generatorId">{{data.generatorId}}</a></span>
+								</li>
+								<li class="zydq">
+									<span>奖励：</span>
+									<span v-cloak>{{data.reward/100000000}}T</span>
+								</li>
+								<li class="zydq">
+									<span>费用：</span>
+									<span v-cloak>{{data.totalFee/100000000}}T</span>
+								</li>
+							</div>
+
+							
+							<div class="wbj-sx20 zydq ">
+								<a href="javascript:qpage(this);" class="btn cta-btn bkyj"><span>上一页</span></a>
+								<a href="javascript:hpage(this);" class="btn cta-btn bkyj"><span>下一页</span></a>
+							</div>
+						
+					</div>
+						
+						
+					</div>
+				</div>
+        </section>
+
+		
+		<script src="js/app.js"></script>
+		<script type="text/javascript">
+			
+			// jiaoyi(0)
+			//翻页
+			urlpage = 0
+			
+			function qpage() {	
+				if(urlpage <= 0){
+					return false
+				}
+				var page = urlpage-10
+				eval(funcname+"("+page+")")
+				urlpage = urlpage-10
+			}
+			
+			function hpage() {	
+				var page = urlpage+10
+				eval(funcname+"("+page+")")
+				urlpage = urlpage+10
+			}
+			
+			window.onload=function (){
+
+			    vum4 = new Vue({
+					el: '#shijia',
+					
+					data: {
+						shijia: ""
+					},
+					beforeCreate: function() {
+						$.ajax({
+							type: 'Get',
+							url: 'https://apiv2.bitz.com/Market/coinRate?coins=777,tgic',
+							success: function(res) {
+								
+								var res = eval('('+res+')')
+								vum4.shijia=res.data.tgic;
+								console.log(vum4)
+								setInterval(function(){
+										shijia()
+									},5000);
+							}
+						})
+					}
+				})
+
+			    vum2 = new Vue({
+					el: '#transactions',
+					data: {
+						datas: "",
+						hiddenPager: true,//是否显示分页
+					},
+					beforeCreate: function() {
+						$.ajax({
+							type: 'Get',
+							// url: server_url+'api/transactions?orderBy=timestamp:desc&limit=10&offset='+page,
+							url: server_url+'api/transactions?orderBy=timestamp:desc&limit=50',
+
+							success: function(data) {
+								console.log(data.transactions)
+								// vum2._data.datas = data.transactions;
+								 // Vue.set(vum2._data,'datas',data.transactions)
+								
+								 vum2.$set(vum2.$data,'datas',data.transactions)
+								   vum2.$forceUpdate();
+								 //console.log(vum2)
+							}
+						})
+					}
+				})
+
+
+				vum3 = new Vue({
+					el: '#blocks',
+					data: {
+						datas: "",
+					},
+					beforeCreate: function() {
+						$.ajax({
+							type: 'Get',
+							url: server_url+'api/blocks?orderBy=height:desc&limit=50',
+
+							success: function(data) {
+								console.log(data.blocks)
+								 vum3.$set(vum3.$data,'datas',data.blocks)
+								 vum3.$forceUpdate();
+							}
+						})
+					}
+				})
+				//zidongshuxin()
+				  a = {};
+					var lastTimeValue=a.funcname;
+					Object.defineProperty(a, 'funcname', {
+					  get: function() {
+					    console.log('get：' + funcname);
+					    return funcname;
+					  },
+					  set: function(value) {
+					    funcname = value;
+					    if(lastTimeValue!=funcname){
+					        lastTimeValue=funcname;
+					        console.log('value changed!! set: ' + funcname);
+					        if(funcname == 'jiaoyi'){
+								t1=setInterval(function(){
+									jiaoyi(urlpage)
+
+								},5000);
+								
+							}else{
+								clearInterval(t1)
+							}
+							if(funcname == 'qukuai'){
+								t2=setInterval(function(){
+									qukuai(urlpage)
+								},5000);
+							}else{
+								clearInterval(t2)
+								
+							}
+					    }
+					  }
+					});
+				a.funcname = 'jiaoyi'
+
+				
+			}	
+			
+			function shijia(){
+				$.ajax({
+					type: 'Get',
+					url: 'https://apiv2.bitz.com/Market/coinRate?coins=777,tgic',
+					success: function(res) {
+						
+						 var res = eval('('+res+')')
+						// vum4.shijia=res.data.tgic;
+						// console.log(vum4)
+						 vum4.$set(vum4.$data,'shijia',res.data.tgic)
+						  vum4.$forceUpdate();
+					}
+				})
+			}
+			
+			function jiaoyi(page){//交易
+				
+				$('.jiaoyi').css('color','#007bff')
+      			$('.qukuai').css('color','')
+				$('#blocks').css('display','none')
+				$('#transactions').css('display','block')
+				
+				
+				// if(page == 0){
+				// 	urlpage = 0
+				// }
+				
+				$.ajax({
+					type: 'Get',
+					url: server_url+'api/transactions?orderBy=timestamp:desc&limit=50&offset='+page,
+
+					success: function(data) {
+						//console.log(data.transactions)
+						// vum2._data.datas = data.transactions;
+						 // Vue.set(vum2._data,'datas',data.transactions)
+						
+						 vum2.$set(vum2.$data,'datas',data.transactions)
+						  vum2.$forceUpdate();
+						 //console.log(vum2)
+					}
+				})
+				a.funcname = 'jiaoyi'
+				// zidongshuxin()
+			}
+			
+			function qukuai(page){//区块
+				$('.qukuai').css('color','#007bff')
+      			$('.jiaoyi').css('color','')
+				$('#transactions').css('display','none')
+				$('#blocks').css('display','block')
+				
+				
+				// if(page == 0){
+				// 	urlpage = 0
+				// }
+				
+				
+				$.ajax({
+					type: 'Get',
+					url: server_url+'api/blocks?orderBy=height:desc&limit=50&offset='+page,
+
+					success: function(data) {
+						vum3.datas = data.blocks;
+						vum3.$forceUpdate();
+					}
+				})
+				a.funcname = 'qukuai'
+				// zidongshuxin()
+
+			}
+			
+		</script>
+
+
+
+
+<footer style="background-image: url(/img/footer-bg.jpg)">
+            <div class="footer-area pt-110 pb-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <div class="footer-widget mb-30">
+                                <!-- <img class="mb-30" src="/webpic/0b/741c532e157328b24ca8835dccf465.png" alt=""> -->
+								<h3>TGIC</h3>
+                                <p>TGIC致力于成为全球金融行业的标杆公有链，帮助金融企业、全球投资者实现传统资产的数字化，避免传统金融行业的短板，推动区块链为基础的金融生态健康发展。</p>
+                                <form class="subscribe-form" action="#">
+                                    <input type="email" placeholder="Your Email">
+                                    <button type="submit"><i class="fas fa-long-arrow-alt-right"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 offset-xl-1 mb-25 col-md-6">
+                            <div class="footer-widget">
+                                <h3>底部导航</h3>
+                                <ul class="footer-link ">									
+                                   										<div class="menu-fl">
+											<li><a href="javascript:;">关于</a></li> 
+                                          
+                                            <li><a href="https://www.tgichain.com/index/page/index/id/7" target="_blank">简介</a>
+											  
+                                            <li><a href="https://www.tgichain.com/index/gonggao/index" target="_blank">公告</a>
+											  
+                                            <li><a href="https://www.tgichain.com/TGI+Whitepaper.pdf" target="_blank">白皮书</a>
+											  
+                                            <li><a href="https://www.tgichain.com/TGIC%20Ecosystem%20Hub.pdf" target="_blank">生态枢纽</a>
+											  
+                                            <li><a href="https://www.tgichain.com/index/whty/index" target="_blank">常见问题</a>
+																					</div>   
+                                    										<div class="menu-fl">
+											<li><a href="javascript:;">资源</a></li> 
+                                          
+                                            <li><a href="javascript:;">APP下载</a>
+											  
+                                            <li><a href="https://fir.im/9r21">安卓下载</a></li>
+                                              
+                                            <li><a href="https://fir.im/6g8f">苹果下载</a></li>
+                                              
+                                            <li><a href="https://github.com/xianfeic/tgic-nodev2.0.1">GitHub</a>
+											  
+                                            <li><a href="https://v.qq.com/x/page/r0813ouwcy6.html">教程</a>
+											  
+                                            <li><a href="/index/page/index/id/11">API</a>
+											  
+                                            <li><a href="http://qb.d8sense.com">轻钱包</a>
+																					</div>   
+                                                                    </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 offset-xl-1 col-md-6">
+                            <div class="footer-widget mb-30">
+                                <h3>联系我们</h3>
+                                <ul class="contact-list">
+                                    <li>ATOM CAPOTAL PTE.LTD</li>
+                                    <li>Admin@tgichain.com</li>
+                                    <li>revenge@vip.qq.com</li>
+                                </ul>
+								<div class="footer-icon">  
+									<a href="https://www.facebook.com/profile.php?id=100029364581947"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://twitter.com/NbRnEsEv2Ct708g?s=05"><i class="fab fa-twitter"></i></a>
+									<a href="https://github.com/xianfeic"><i class="fab fa-github"></i></a>
+									<a href="http://weibo.com/TGIC"><i class="fab fa-weibo"></i></a>
+									<a href="https://t.me/tgichain01"><i class="fab fa-telegram"></i></a>
+								</div>  
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="copyright-border pt-30 pb-30">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="copyright text-center text-md-left">
+                                    <p>© 2018-2019 TGIC. All rights reserved.by TGIC TEAM.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="copyright text-center text-md-right">
+                                    <ul>
+                                        <p>WWW.TGICHAIN.COM</p>
+                                        <!-- <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Contact Us</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-end -->
+     </div>
+
+
+    <!-- All JS -->
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <!-- <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script> -->
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.nice-select.min.js"></script>
+    <script src="/js/jquery.meanmenu.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/main.js"></script>
+	<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+</body>
+
+</html>
