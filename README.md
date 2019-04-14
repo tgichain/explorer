@@ -35,3 +35,25 @@ server {
 const server_url = "http://49.4.10.4:4100/"
 ```
 直接把这行代码中的IP和端口修改成自己节点的IP和端口
+
+# 如何配置自己节点的区块链浏览器让它显示中文？
+
+修改js/username.js
+```
+const username = {
+
+    'MGmTbvos2VSQAecLraMW3WR1rLncbuk1aJ': 'TGIC',
+    'MKkKysXYEuUEWA3UctCREERjrz1r2cwBiS': '欢乐彩票',
+    'MC7kMPonnqTQrojbZw5WdhFUhmj5iUVQu3': '欢乐4+1',
+    'MTMijUsYGUmCGGqwfhHyZF73jXX7rK5BgC': '团队',
+    'M7uLG9s12buf8bRGST7xS94gHmLxhZWbjz': 'bitker交易所',
+    'MJg82TKjDEHEujfmt5yzNuSF3C5MEY1jF2': 'MXC交易所',
+    'MUAs7MGArEvYHHnNpLSddnvgzYGd8XG3UD': 'Bitz交易所',
+    'MBYLq5mfZgSw6hjrvLZPU2Ur6z99Lpnpps': 'CEO交易所',
+    'MMZdwvwTyzBRYd3ZsvL8rgngUAdXwogEWU': '数字资产托管',
+    'MBmMXdGyVcDSh7TcwgVJAHA1iKXa56RHa8': '数字资产交换',
+    'MBZknz7dA6Q1o6BdQ4So6YByNWRjet34ZS': '基金会'
+}
+```
+
+钱包地址对应自己希望显示的中文名字
