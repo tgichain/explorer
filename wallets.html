@@ -78,7 +78,7 @@
                         <div class="col-xl-8 col-lg-9 text-right">
                             <div class="main-menu">
                                 <nav id="mobile-menu2">
-                                    <ul class="home-two">
+                                    <ul class="home-two offcanvas">
                                         <li><a href="https://www.tgichain.com/" target="_blank">官方首页</a></li>	
 										<li><a href="/index.html">区块浏览器</a></li>	
 										<li><a href="/top-wallets.html">热门钱包</a></li>	
@@ -102,9 +102,10 @@
                     </div>
                     <div class="offcanvas-menu">
                         <span class="menu-close"><i class="fas fa-times"></i></span>
-                        <form action="#">
-                            <input type="text" placeholder="Search..">
-                            <button><i class="fa fa-search"></i></button>
+                         <form >
+                            <input type="text" placeholder="Search.." id="sltnameb">
+                            <button type="button" id="sousuob"><i class="fa fa-search"></i></button>
+                            <div><span id="error" style="color: #FF0000"></span></div>
                         </form>
                         <ul>
                             <li><a href="http://www.tgichain.com/" target="_blank">官方首页</a></li>	
@@ -123,6 +124,14 @@
                     <div class="offcanvas-overly"></div>
                 </div>
             </div>
+			
+			
+			<div class="sjxs offcanvas">
+				<form class="sjxs">
+					<input type="text" placeholder="Search.." id="sltnamea">
+					<button type="button" id="sousuoa" ><i class="fa fa-search"></i></button>
+				</form>
+			</div>
         </header>
 
 

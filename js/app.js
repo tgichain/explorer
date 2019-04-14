@@ -1,4 +1,5 @@
 const server_url = "http://49.4.10.4:4100/"
+
 vum1 = new Vue({
 	el: '#height',
 	data: {
@@ -81,6 +82,17 @@ function publickeyusername(publicKey) {
 		}
 	})
 }
+$('#sousuoa').click(function(){
+	var name = $('#sltnamea').val()
+	 sltname(name)
+	 console.log(11111)  
+})
+$('#sousuob').click(function(){
+	var name = $('#sltnameb').val()
+	 sltname(name)
+	 console.log(2222)
+})
+
 
 
 //获取url参数
@@ -92,3 +104,47 @@ function getParam(paramName) {
     } 
     return paramValue == "" && (paramValue = null), paramValue 
 } 
+
+function sltname(sltname){
+	// var sltname = $('#sltname').val()
+	//var error = false
+	$.ajax({
+		url: server_url+"api/transactions/get?id="+sltname,
+		success:function(res){
+			
+			if(res.success){
+				window.location.href='/transaction.html?id='+sltname
+			}else{
+				//$('#error').html('没有找到相关内容')
+			}
+			
+		}
+
+	})
+	$.ajax({
+		url: server_url+"api/accounts?address="+sltname,
+		success:function(res){
+			
+			if(res.success){
+				window.location.href='/wallets.html?id='+sltname
+			}else{
+				//$('#error').html('没有找到相关内容')
+			}
+			
+		}
+
+	})
+	$.ajax({
+		url: server_url+"api/blocks/get?id="+sltname,
+		success:function(res){
+			
+			if(res.success){
+				window.location.href='/block.html?id='+sltname
+			}else{
+				// $('#error').html('没有找到相关内容')
+			}
+			
+		}
+
+	})
+}
