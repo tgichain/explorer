@@ -27,3 +27,11 @@ server {
             index  index.html index.htm;
           }
          }
+
+# 如何打造自己的节点的区块链浏览器？
+
+修改js/app.js
+```
+const server_url = "http://49.4.10.4:4100/"
+```
+直接把这行代码中的IP和端口修改成自己节点的IP和端口
