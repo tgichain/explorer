@@ -456,6 +456,10 @@ label {
 .offcanvas-menu form button i {
 	color: #fff;
 }
+
+
+
+
 .offcanvas-overly {
 	position: fixed;
 	background: #000;
@@ -2298,4 +2302,38 @@ label {
 }
 .pt-20{
 	padding-top: 20px;
+}
+.sjxs{
+	display: none;
+}
+
+
+@media(max-width:640px) {
+		.sjxs{
+			display: block;
+		}
+			
+		.offcanvas form {
+			position: relative;
+			background: #333;
+		}
+		.offcanvas form input {
+			width: 100%;
+			background: none;
+			/* border: 1px solid #2d3547; */
+			padding: 7px;
+			border: 0;
+			color: #fff;
+		}
+		.offcanvas form button {
+			position: absolute;
+			border: none;
+			right: 0;
+			background: #007BFF;
+			padding: 7px 14px;
+			top: 0;
+		}
+		.offcanvas form button i {
+			color: #fff;
+		}
 }
