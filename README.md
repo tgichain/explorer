@@ -8,7 +8,7 @@ windows可以直接在IIS中使用
 
 1.安装nginx或其他
 
-2.配置 nginx.con
+2.配置 nginx.conf
 
 
 3.完成
