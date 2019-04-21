@@ -19,7 +19,7 @@ nginx.conf 配置说明
 server {
 
         listen       8080;
-        server_name  1.1.1.1    #这里输入您的IP;
+        server_name  1.1.1.1;    #这里输入您的IP
         root /home/www;         #这里是写你文件存放的目录
         charset utf-8;
 
