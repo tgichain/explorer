@@ -15,7 +15,7 @@ windows可以直接在IIS中使用
 
 nginx.conf 配置说明
 
-
+```
 server {
 
         listen       8080;
@@ -29,7 +29,7 @@ server {
             index  index.html index.htm;
           }
          }
-
+```
 # 如何打造自己的节点的区块链浏览器？
 
 修改js/app.js
